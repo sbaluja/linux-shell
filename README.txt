@@ -9,8 +9,7 @@ Saarthi Baluja: 1098654 : sbaluja@uoguelph.ca : 2021-2-5
 
     What is not supported: Full implementation of the environment variables $PATH and $HOME. The export
                            command does change the environment variables PATH & HOME, and is shown through the ECHO cmd,
-                           but execvp is used, keeping the original path for commands. Some incomplete cmds such as a cmd 
-                           that is piped to no file (</>), will cause a segmentation fault, but piping (|) to nothing is handled.
+                           but execvp is used, keeping the original path for commands.
 
     Export CMD: must be in the form of "export $variable=path" with no spaces between the variable, equal sign, and path.
 
